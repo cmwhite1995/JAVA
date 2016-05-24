@@ -1,0 +1,70 @@
+
+/*an application that reads five integers
+and prints the largest and smallest integers in the group without using arrays or loops*/
+import java.util.Scanner;
+public class main {
+
+	public static void main(String[] args)
+	{
+		Scanner input = new Scanner(System.in);
+		double holder;
+
+		System.out.println("enter the first number");  //ask user to enter first number 
+		holder=input.nextDouble(); 
+		
+		double largest=holder;
+		double smallest=holder;
+		
+		if(largest<holder)
+		largest=holder;
+		else 
+			if(smallest>holder)
+				smallest=smallest;
+		
+		
+	
+		
+		System.out.println("enter the second number");  //asks user to input second number   
+		holder=input.nextDouble();
+		if(largest<holder)
+		largest=holder;
+		else 
+			if(smallest>holder)
+				smallest=smallest;
+		
+		System.out.println("enter the third number"); //asks user to input third number 
+		holder=input.nextDouble();
+		if(largest<holder)
+		largest=holder;
+		else 
+			if(smallest>holder)
+				smallest=smallest;
+	
+		System.out.println("enter the fourth number");  //asks user to input second number   
+		holder=input.nextDouble();
+		if(largest<holder)
+		largest=holder;
+		else 
+			if(smallest>holder)
+				smallest=smallest;
+		
+		
+		
+		System.out.println("enter the fifth number"); //asks user to input third number 
+		holder=input.nextDouble();
+		if(largest<holder)
+		largest=holder;
+		else 
+			if(smallest>holder)
+				smallest=smallest;
+		
+		
+		
+		
+		System.out.println("the largets number is" + largest);
+		System.out.println("the smallest number is" + smallest);
+	}
+	
+	
+	
+}
